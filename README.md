@@ -15,6 +15,7 @@ At minutes = 0, use o’clock. For 1 < minutes < 30, use past, and for 30 < minu
 Function Description:
 In your function, you are required to have the following parameters(s): int h – the hour of the day and int m – the minutes after the hour. Which will return a string, a time string as it has been mentioned. The input format should be, the first line contains h, the hours portion and the second line contain m, the minutes portion. Therefore, the constraints should be the following:
                                                  • 1<h<12 • 0<m<60
+
 Input 1:
 5
 47
