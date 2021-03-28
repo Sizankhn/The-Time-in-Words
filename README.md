@@ -20,23 +20,3 @@ In your function, you are required to have the following parameters(s): int h �
 
                                          • 1 < h < 12 
                                          • 0 < m < 60
-
-Input 1:
-
-5
-
-47
-
-Output 1:
-
-thirteen minutes to six
-
-Input 2:
-
-7
-
-15
-
-Output 2:
-
-quarter past seven
