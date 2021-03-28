@@ -13,12 +13,18 @@ Given the time in numerals we may convert it into words, as shown below:
 At minutes = 0, use o’clock. For 1 < minutes < 30, use past, and for 30 < minutes use to.
 
 Function Description:
-In your function, you are required to have the following parameters(s): int h – the hour of the day and int m – the minutes after the hour. Which will return a string, a time string as it has been mentioned. The input format should be, the first line contains h, the hours portion and the second line contain m, the minutes portion. Therefore, the constraints should be the following (Hackerrank, n.d.):
+In your function, you are required to have the following parameters(s): int h – the hour of the day and int m – the minutes after the hour. Which will return a string, a time string as it has been mentioned. The input format should be, the first line contains h, the hours portion and the second line contain m, the minutes portion. Therefore, the constraints should be the following:
                                                  • 1<h<12 • 0<m<60
+Input 1:
+5
+47
 
-Sample          Input         Output
-                  5
- 1                47          thirteen minutes to six
- 
-                  7
- 2                15          quarter past seven
+Output 1:
+thirteen minutes to six
+
+Input 2:
+7
+15
+
+Output 2:
+quarter past seven
