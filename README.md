@@ -2,6 +2,7 @@
 The Time in Words
 
 Given the time in numerals we may convert it into words, as shown below:
+
                                                   5:00 → five o’clock
                                                   5:01 → one minute past five
                                                   5:10 → ten minutes past five
@@ -10,22 +11,32 @@ Given the time in numerals we may convert it into words, as shown below:
                                                   5:40 → twenty minutes past six
                                                   5:45 → quarter past six
                                                   5:47 → thirteen minutes to six
+                                                  
 At minutes = 0, use o’clock. For 1 < minutes < 30, use past, and for 30 < minutes use to.
 
 Function Description:
+
 In your function, you are required to have the following parameters(s): int h – the hour of the day and int m – the minutes after the hour. Which will return a string, a time string as it has been mentioned. The input format should be, the first line contains h, the hours portion and the second line contain m, the minutes portion. Therefore, the constraints should be the following:
-                                                 • 1<h<12 • 0<m<60
+
+                                                 • 1 < h < 12 
+                                                 • 0 < m < 60
 
 Input 1:
+
 5
+
 47
 
 Output 1:
+
 thirteen minutes to six
 
 Input 2:
+
 7
+
 15
 
 Output 2:
+
 quarter past seven
